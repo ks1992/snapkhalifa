@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224413D51D3193F50035C338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224413D41D3193F50035C338 /* main.m */; };
+		224413D81D3193F50035C338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224413D71D3193F50035C338 /* AppDelegate.m */; };
+		224413DB1D3193F50035C338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224413DA1D3193F50035C338 /* ViewController.m */; };
+		224413DE1D3193F50035C338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224413DC1D3193F50035C338 /* Main.storyboard */; };
+		224413E01D3193F50035C338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224413DF1D3193F50035C338 /* Assets.xcassets */; };
+		224413E31D3193F50035C338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224413E11D3193F50035C338 /* LaunchScreen.storyboard */; };
+		224413EE1D3193F50035C338 /* snapkhalifaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224413ED1D3193F50035C338 /* snapkhalifaTests.m */; };
+		224413F91D3193F50035C338 /* snapkhalifaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224413F81D3193F50035C338 /* snapkhalifaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		224413EA1D3193F50035C338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224413C81D3193F40035C338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224413CF1D3193F50035C338;
+			remoteInfo = snapkhalifa;
+		};
+		224413F51D3193F50035C338 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224413C81D3193F40035C338 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224413CF1D3193F50035C338;
+			remoteInfo = snapkhalifa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		224413D01D3193F50035C338 /* snapkhalifa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapkhalifa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224413D41D3193F50035C338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		224413D61D3193F50035C338 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		224413D71D3193F50035C338 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		224413D91D3193F50035C338 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		224413DA1D3193F50035C338 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		224413DD1D3193F50035C338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		224413DF1D3193F50035C338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		224413E21D3193F50035C338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		224413E41D3193F50035C338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224413E91D3193F50035C338 /* snapkhalifaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapkhalifaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224413ED1D3193F50035C338 /* snapkhalifaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snapkhalifaTests.m; sourceTree = "<group>"; };
+		224413EF1D3193F50035C338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224413F41D3193F50035C338 /* snapkhalifaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snapkhalifaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224413F81D3193F50035C338 /* snapkhalifaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snapkhalifaUITests.m; sourceTree = "<group>"; };
+		224413FA1D3193F50035C338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224413CD1D3193F50035C338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224413E61D3193F50035C338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224413F11D3193F50035C338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224413C71D3193F40035C338 = {
+			isa = PBXGroup;
+			children = (
+				224413D21D3193F50035C338 /* snapkhalifa */,
+				224413EC1D3193F50035C338 /* snapkhalifaTests */,
+				224413F71D3193F50035C338 /* snapkhalifaUITests */,
+				224413D11D3193F50035C338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224413D11D3193F50035C338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224413D01D3193F50035C338 /* snapkhalifa.app */,
+				224413E91D3193F50035C338 /* snapkhalifaTests.xctest */,
+				224413F41D3193F50035C338 /* snapkhalifaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224413D21D3193F50035C338 /* snapkhalifa */ = {
+			isa = PBXGroup;
+			children = (
+				224413D61D3193F50035C338 /* AppDelegate.h */,
+				224413D71D3193F50035C338 /* AppDelegate.m */,
+				224413D91D3193F50035C338 /* ViewController.h */,
+				224413DA1D3193F50035C338 /* ViewController.m */,
+				224413DC1D3193F50035C338 /* Main.storyboard */,
+				224413DF1D3193F50035C338 /* Assets.xcassets */,
+				224413E11D3193F50035C338 /* LaunchScreen.storyboard */,
+				224413E41D3193F50035C338 /* Info.plist */,
+				224413D31D3193F50035C338 /* Supporting Files */,
+			);
+			path = snapkhalifa;
+			sourceTree = "<group>";
+		};
+		224413D31D3193F50035C338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				224413D41D3193F50035C338 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		224413EC1D3193F50035C338 /* snapkhalifaTests */ = {
+			isa = PBXGroup;
+			children = (
+				224413ED1D3193F50035C338 /* snapkhalifaTests.m */,
+				224413EF1D3193F50035C338 /* Info.plist */,
+			);
+			path = snapkhalifaTests;
+			sourceTree = "<group>";
+		};
+		224413F71D3193F50035C338 /* snapkhalifaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				224413F81D3193F50035C338 /* snapkhalifaUITests.m */,
+				224413FA1D3193F50035C338 /* Info.plist */,
+			);
+			path = snapkhalifaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224413CF1D3193F50035C338 /* snapkhalifa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224413FD1D3193F50035C338 /* Build configuration list for PBXNativeTarget "snapkhalifa" */;
+			buildPhases = (
+				224413CC1D3193F50035C338 /* Sources */,
+				224413CD1D3193F50035C338 /* Frameworks */,
+				224413CE1D3193F50035C338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snapkhalifa;
+			productName = snapkhalifa;
+			productReference = 224413D01D3193F50035C338 /* snapkhalifa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		224413E81D3193F50035C338 /* snapkhalifaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224414001D3193F50035C338 /* Build configuration list for PBXNativeTarget "snapkhalifaTests" */;
+			buildPhases = (
+				224413E51D3193F50035C338 /* Sources */,
+				224413E61D3193F50035C338 /* Frameworks */,
+				224413E71D3193F50035C338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224413EB1D3193F50035C338 /* PBXTargetDependency */,
+			);
+			name = snapkhalifaTests;
+			productName = snapkhalifaTests;
+			productReference = 224413E91D3193F50035C338 /* snapkhalifaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		224413F31D3193F50035C338 /* snapkhalifaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224414031D3193F50035C338 /* Build configuration list for PBXNativeTarget "snapkhalifaUITests" */;
+			buildPhases = (
+				224413F01D3193F50035C338 /* Sources */,
+				224413F11D3193F50035C338 /* Frameworks */,
+				224413F21D3193F50035C338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224413F61D3193F50035C338 /* PBXTargetDependency */,
+			);
+			name = snapkhalifaUITests;
+			productName = snapkhalifaUITests;
+			productReference = 224413F41D3193F50035C338 /* snapkhalifaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224413C81D3193F40035C338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Khalifa  sarwashi";
+				TargetAttributes = {
+					224413CF1D3193F50035C338 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					224413E81D3193F50035C338 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 224413CF1D3193F50035C338;
+					};
+					224413F31D3193F50035C338 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 224413CF1D3193F50035C338;
+					};
+				};
+			};
+			buildConfigurationList = 224413CB1D3193F40035C338 /* Build configuration list for PBXProject "snapkhalifa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 224413C71D3193F40035C338;
+			productRefGroup = 224413D11D3193F50035C338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224413CF1D3193F50035C338 /* snapkhalifa */,
+				224413E81D3193F50035C338 /* snapkhalifaTests */,
+				224413F31D3193F50035C338 /* snapkhalifaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224413CE1D3193F50035C338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224413E31D3193F50035C338 /* LaunchScreen.storyboard in Resources */,
+				224413E01D3193F50035C338 /* Assets.xcassets in Resources */,
+				224413DE1D3193F50035C338 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224413E71D3193F50035C338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224413F21D3193F50035C338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224413CC1D3193F50035C338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224413DB1D3193F50035C338 /* ViewController.m in Sources */,
+				224413D81D3193F50035C338 /* AppDelegate.m in Sources */,
+				224413D51D3193F50035C338 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224413E51D3193F50035C338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224413EE1D3193F50035C338 /* snapkhalifaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224413F01D3193F50035C338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224413F91D3193F50035C338 /* snapkhalifaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		224413EB1D3193F50035C338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224413CF1D3193F50035C338 /* snapkhalifa */;
+			targetProxy = 224413EA1D3193F50035C338 /* PBXContainerItemProxy */;
+		};
+		224413F61D3193F50035C338 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224413CF1D3193F50035C338 /* snapkhalifa */;
+			targetProxy = 224413F51D3193F50035C338 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		224413DC1D3193F50035C338 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224413DD1D3193F50035C338 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		224413E11D3193F50035C338 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224413E21D3193F50035C338 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		224413FB1D3193F50035C338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		224413FC1D3193F50035C338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		224413FE1D3193F50035C338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = snapkhalifa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = khalifa.snapkhalifa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		224413FF1D3193F50035C338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = snapkhalifa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = khalifa.snapkhalifa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		224414011D3193F50035C338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = snapkhalifaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = khalifa.snapkhalifaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snapkhalifa.app/snapkhalifa";
+			};
+			name = Debug;
+		};
+		224414021D3193F50035C338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = snapkhalifaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = khalifa.snapkhalifaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snapkhalifa.app/snapkhalifa";
+			};
+			name = Release;
+		};
+		224414041D3193F50035C338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = snapkhalifaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = khalifa.snapkhalifaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = snapkhalifa;
+			};
+			name = Debug;
+		};
+		224414051D3193F50035C338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = snapkhalifaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = khalifa.snapkhalifaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = snapkhalifa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224413CB1D3193F40035C338 /* Build configuration list for PBXProject "snapkhalifa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224413FB1D3193F50035C338 /* Debug */,
+				224413FC1D3193F50035C338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224413FD1D3193F50035C338 /* Build configuration list for PBXNativeTarget "snapkhalifa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224413FE1D3193F50035C338 /* Debug */,
+				224413FF1D3193F50035C338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		224414001D3193F50035C338 /* Build configuration list for PBXNativeTarget "snapkhalifaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224414011D3193F50035C338 /* Debug */,
+				224414021D3193F50035C338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		224414031D3193F50035C338 /* Build configuration list for PBXNativeTarget "snapkhalifaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224414041D3193F50035C338 /* Debug */,
+				224414051D3193F50035C338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 224413C81D3193F40035C338 /* Project object */;
+}
